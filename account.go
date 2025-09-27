@@ -428,7 +428,7 @@ type CreateOrderResponseFULL struct {
 	TimeInForce             string `json:"timeInForce"`
 	Type                    string `json:"type"`
 	Side                    string `json:"side"`
-	WorkingTime             uint64 `json:"workingTime"`
+	WorkingTime             int64  `json:"workingTime"`
 	SelfTradePreventionMode string `json:"selfTradePreventionMode"`
 	IcebergQty              string `json:"icebergQty,omitempty"`
 	PreventedMatchId        int64  `json:"preventedMatchId,omitempty"`
