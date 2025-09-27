@@ -14,8 +14,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/binance/binance-connector-go/handlers"
 	"github.com/bitly/go-simplejson"
+	"github.com/x-x-x-Ilya/binance-connector-go/handlers"
 )
 
 // TimeInForceType define time in force type of order
