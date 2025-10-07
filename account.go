@@ -661,7 +661,7 @@ type GetOrderResponse struct {
 	Time                    uint64 `json:"time"`
 	UpdateTime              uint64 `json:"updateTime"`
 	IsWorking               bool   `json:"isWorking"`
-	WorkingTime             uint64 `json:"workingTime"`
+	WorkingTime             int64  `json:"workingTime"`
 	OrigQuoteOrderQty       string `json:"origQuoteOrderQty"`
 	SelfTradePreventionMode string `json:"selfTradePreventionMode"`
 	PreventedMatchId        int64  `json:"preventedMatchId,omitempty"`
